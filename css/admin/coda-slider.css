@@ -1,0 +1,255 @@
+#slider {
+	position: relative;
+	width: 100%;
+
+}
+
+#tooplate_wrapper {
+	width: 1108px;
+	height: 875px;
+	margin: 15px auto 20px;
+	background: url(../../images/tooplate_content_bg.jpg) top left no-repeat;
+}
+
+#tooplate_sidebar {
+	float: left;
+	width: 296px;
+	padding: 80px 0 0;
+	margin-left:0px;
+}
+
+#header {
+	width: 224px;
+	padding: 0 36px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+#header h1 {
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	display: block;
+	text-indent: - 10000px;
+}
+
+#menu {
+	width: 236px;
+	padding-left: 60px;
+}
+
+#content {
+	float: right;
+	width: 720px;
+	padding: 80px 85px 10px 0;
+
+}
+
+
+
+.content_section {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px dashed #ccc;
+	display:table;
+	width: 680px;
+}
+
+.last_section {
+	margin: 0;
+	padding: 0;
+	width:680px;
+
+}
+
+#footer {
+	clear: both;
+	width: 900px;
+	padding: 0 27px;
+	margin: 0 auto;
+}
+
+#footer_left {
+	float: right;
+	width: 300px;
+	text-align: right
+}
+
+#footer a {
+	color: #bbb;
+}
+
+#social_box {
+	float: left;
+	height: 85px;
+	padding: 0;
+	text-align: right;
+}
+
+#social_box a {
+	display: inline-block;
+	margin-left: 20px;
+	width: 60px; height: 60px;
+}
+
+.scroll {
+	height: 760px;
+	width: 720px;
+	overflow: auto;
+	overflow-x: hidden;
+	position: relative;
+	clear: left;
+	margin-left:40px;
+	margin-top:-30px;
+}
+
+.scrollContainer div.panel {
+	height: 760px;
+	width: 720px;
+	overflow: hidden;
+	color:#000;
+	font-weight: 300;
+
+}
+
+ul.navigation {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul.navigation li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+
+ul.navigation a {
+	display: block;
+	height: 47px;
+	padding: 12px 0 0 20px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	font-family: 'tahoma';
+}
+
+.menu_01 { background: url(../../images/tooplate_menu_01.png) }
+.menu_02 { background: url(../../images/tooplate_menu_02.png) }
+.menu_03 { background: url(../../images/tooplate_menu_03.png) }
+.menu_04 { background: url(../../images/tooplate_menu_04.png) }
+.menu_05 { background: url(../../images/tooplate_menu_05.png) }
+.menu_06 { background: url(../../images/tooplate_menu_06.png) }
+.menu_07 { background: url(../../images/tooplate_menu_07.png); font-size:45px; height:20px; }
+
+ul.navigation a:hover, ul.navigation a.selected {
+	color: #412810;
+}
+
+ul.navigation a:focus {
+	outline: none;
+}
+
+.scrollButtons {
+	position: absolute;
+	top: 300px;
+	cursor: pointer;
+}
+
+.scrollButtons.left {
+	left: 0
+}
+
+.scrollButtons.right {
+	right: 0
+}
+
+.hide {
+	display: none;
+}
+
+.btn,#s-option {
+	border: none;
+	cursor: pointer;
+	padding: 10px 5px;
+	display: inline-block;
+	margin:5px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	outline: none;
+	position: relative;
+	background: #b46a21;
+	color: #fff;
+	height: 30px;
+	width: 100px;
+	font-size: 12px;
+	text-shadow: 0px 1px 10px #000;
+	border: 1px solid #dad9d8;
+	border-radius: 20px;
+	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0, .75);
+	box-shadow: 2px 2px 15px rgba(0,0,0, .75);
+}
+
+
+.btn:active,#s-option:active {
+	background:#ca7725;
+}
+
+.btn input,#s-option input{
+	float:left;
+	margin:-3px -20px 0 0;
+}
+.btn label,#s-option label{
+	float:left;
+	margin:-5px 0 0 0;
+}
+
+
+
+
+/* Button 5a */
+
+
+
+.w3-animate-fading{-webkit-animation:fading 10s infinite;animation:fading 10s infinite}
+@-webkit-keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.w3-animate-opacity{-webkit-animation:opac 1s;animation:opac 1s}
+@-webkit-keyframes opac{from{opacity:0} to{opacity:1}}
+@keyframes opac{from{opacity:0} to{opacity:1}}
+.w3-animate-top{position:relative;-webkit-animation:animatetop 0.4s;animation:animatetop 0.4s}
+@-webkit-keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.w3-animate-left{position:relative;-webkit-animation:animateleft 0.4s;animation:animateleft 0.4s}
+@-webkit-keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.w3-animate-right{position:relative;-webkit-animation:animateright 0.4s;animation:animateright 0.4s}
+@-webkit-keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.w3-animate-bottom{position:relative;-webkit-animation:animatebottom 0.4s;animation:animatebottom 0.4s}
+@-webkit-keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0px;opacity:1}}
+@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.w3-animate-zoom {-webkit-animation:animatezoom 0.6s;animation:animatezoom 0.6s}
+@-webkit-keyframes animatezoom{from{-webkit-transform:scale(0)} to{-webkit-transform:scale(1)}}
+@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+
+.logout h2 span{
+	color:white;
+	font-size:18px;
+	padding-left:20px;
+	padding-right:200px;
+	margin-top:-55px;
+	position:absolute
+
+}
+.logout h2 span:hover{
+	color: #412810;
+}
+

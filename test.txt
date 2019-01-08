@@ -1,0 +1,8 @@
+<div class="content_section">
+									<h2>Welcome to <i>Study Portal</i></h2>
+									<img src="images/study.png" alt="Image 01" class="image_wrapper image_fl" height="100px" width="100px" />
+									<p></br>Lt. Cdr Anisur Rahman</br>
+									Assistant professor</br>
+									Faculty of EEC, MIST</br>
+									Email:anisurrahman@gmail.com</p>
+								</div>

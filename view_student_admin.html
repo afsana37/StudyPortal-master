@@ -1,0 +1,456 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Study Portal</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/admin/tooplate_style.css" rel="stylesheet" type="text/css" />
+<link href="css/admin/color.css" rel="stylesheet" type="text/css" />
+<link href="css/admin/table.css" rel="stylesheet" type="text/css" />
+
+
+<link rel="stylesheet" href="css/admin/coda-slider.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="css/admin/tabs.css" type="text/css" charset="utf-8" />
+
+<script src="js/jquery-1.2.6.js" type="text/javascript"></script>
+<script src="js/jquery.scrollTo-1.3.3.js" type="text/javascript"></script>
+<script src="js/jquery.localscroll-1.2.5.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/coda-slider.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/admin/horizontal_tab.js"></script>
+<script src="js/admin/horizontal_tab_sub.js"></script>
+<script src="js/admin/table_view_st.js"></script>
+
+</head>
+<body>
+	
+<div id="slider">
+	<div id="tooplate_wrapper">
+        <div id="tooplate_sidebar">
+		
+            <div id="header">
+                <h1><a href="#"><img src="images/tooplate_logo.png" title="Notebook Template - tooplate.com" alt="Notebook free html template" /></a></h1>
+            </div>    
+			
+            <div id="menu">
+                <ul class="navigation">
+                    <li><a href="index_admin.html#home"  class="selected menu_01">Home</a></li>
+                    <li><a href="index_admin.html#members" class="  menu_02">Back</a></li>
+                    <li><a href="index_admin.html#course" class="menu_03">Courses</a></li>
+                    <li><a href="index_admin.html#schedule" class="menu_04">Class Schedule</a></li>
+                    <li><a href="index_admin.html#disscussion" class="menu_05">Disscussion Forum</a></li>
+                    <li><a href="index_admin.html#contactus" class="menu_06">Contact</a></li>
+                    <li><a href="index_admin.html#contactus" class="menu_07">Contact</a></li>
+                </ul>
+            </div>
+		</div> <!-- end of sidebar -->  
+    
+        <div id="content">
+          <div class="scroll">
+            <div class="scrollContainer">
+              <div class="panel" id="home">
+                <div class="content_section content_blue">
+                  <!--<h2>Welcome to <i>Study Portal</i></h2>
+                  <img src="images/study.png" alt="Image 01" class="image_wrapper image_fl" />
+                  <p><em> A comfortable zone for faculties and students.</em></p>
+                  <p>Study portal is a platform where students can reach to all necessary study materials very easily, without consuming their valuable time. 
+				  The motive of study portal is to built a cooperative platform for students for better performance in their studies.</p>
+                -->
+                  <!--  <html>
+-->
+                    <style>
+
+
+
+                        h1{
+                            font-size: 30px;
+                            color: #fff;
+                            text-transform: uppercase;
+                            font-weight: 300;
+                            text-align: center;
+                            margin-bottom: 15px;
+                        }
+                        table{
+                            width:100%;
+                            table-layout: fixed;
+                        }
+                        .tbl-header{
+                            background-color: rgba(255,255,255,0.3);
+                        }
+                        .tbl-content{
+                            height:300px;
+                            overflow-x:auto;
+                            margin-top: 0px;
+                            border: 1px solid rgba(255,255,255,0.3);
+                        }
+                        th{
+                            padding: 20px 15px;
+                            text-align: left;
+                            font-weight: 500;
+                            font-size: 12px;
+                            color: #fff;
+                            text-transform: uppercase;
+                        }
+                        td{
+                            padding: 15px;
+                            text-align: left;
+                            vertical-align:middle;
+                            font-weight: 300;
+                            font-size: 12px;
+                            color: #fff;
+                            border-bottom: solid 1px rgba(255,255,255,0.1);
+                        }
+
+                        /* demo styles */
+
+                        @import url(http://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+                        body{
+                            background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+                            background: linear-gradient(to right, #25c481, #25b7c4);
+                            font-family: 'Roboto', sans-serif;
+                        }
+                        section{
+                            margin: 50px;
+                        }
+
+
+                        /* follow me template */
+                        .made-with-love {
+                            margin-top: 40px;
+                            padding: 10px;
+                            clear: left;
+                            text-align: center;
+                            font-size: 10px;
+                            font-family: arial;
+                            color: #fff;
+                        }
+                        .made-with-love i {
+                            font-style: normal;
+                            color: #F50057;
+                            font-size: 14px;
+                            position: relative;
+                            top: 2px;
+                        }
+                        .made-with-love a {
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                        .made-with-love a:hover {
+                            text-decoration: underline;
+                        }
+
+
+                        /* for custom scrollbar for webkit browser*/
+
+                        ::-webkit-scrollbar {
+                            width: 6px;
+                        }
+                        ::-webkit-scrollbar-track {
+                            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                        }
+                        ::-webkit-scrollbar-thumb {
+                            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                        }
+                    </style>
+
+
+                    <section> <!--for demo wrap-->
+                        <h1>Fixed Table header</h1>
+                        <div  class="tbl-header">
+                            <table cellpadding="0" cellspacing="0" border="0">
+                                <thead>
+                                <tr>
+                                    <th>Code</th>
+                                    <th>Company</th>
+                                    <th>Price</th>
+                                    <th>Change</th>
+                                    <th>Change %</th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                        <div  class="tbl-content">
+                            <table cellpadding="0" cellspacing="0" border="0">
+                                <tbody>
+                                <tr>
+                                    <td>AAC</td>
+                                    <td>AUSTRALIAN COMPANY </td>
+                                    <td>$1.38</td>
+                                    <td>+2.01</td>
+                                    <td>-0.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAD</td>
+                                    <td>AUSENCO</td>
+                                    <td>$2.38</td>
+                                    <td>-0.01</td>
+                                    <td>-1.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAX</td>
+                                    <td>ADELAIDE</td>
+                                    <td>$3.22</td>
+                                    <td>+0.01</td>
+                                    <td>+1.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>XXD</td>
+                                    <td>ADITYA BIRLA</td>
+                                    <td>$1.02</td>
+                                    <td>-1.01</td>
+                                    <td>+2.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAC</td>
+                                    <td>AUSTRALIAN COMPANY </td>
+                                    <td>$1.38</td>
+                                    <td>+2.01</td>
+                                    <td>-0.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAD</td>
+                                    <td>AUSENCO</td>
+                                    <td>$2.38</td>
+                                    <td>-0.01</td>
+                                    <td>-1.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAX</td>
+                                    <td>ADELAIDE</td>
+                                    <td>$3.22</td>
+                                    <td>+0.01</td>
+                                    <td>+1.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>XXD</td>
+                                    <td>ADITYA BIRLA</td>
+                                    <td>$1.02</td>
+                                    <td>-1.01</td>
+                                    <td>+2.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAC</td>
+                                    <td>AUSTRALIAN COMPANY </td>
+                                    <td>$1.38</td>
+                                    <td>+2.01</td>
+                                    <td>-0.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAD</td>
+                                    <td>AUSENCO</td>
+                                    <td>$2.38</td>
+                                    <td>-0.01</td>
+                                    <td>-1.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAX</td>
+                                    <td>ADELAIDE</td>
+                                    <td>$3.22</td>
+                                    <td>+0.01</td>
+                                    <td>+1.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>XXD</td>
+                                    <td>ADITYA BIRLA</td>
+                                    <td>$1.02</td>
+                                    <td>-1.01</td>
+                                    <td>+2.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAC</td>
+                                    <td>AUSTRALIAN COMPANY </td>
+                                    <td>$1.38</td>
+                                    <td>+2.01</td>
+                                    <td>-0.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAD</td>
+                                    <td>AUSENCO</td>
+                                    <td>$2.38</td>
+                                    <td>-0.01</td>
+                                    <td>-1.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAX</td>
+                                    <td>ADELAIDE</td>
+                                    <td>$3.22</td>
+                                    <td>+0.01</td>
+                                    <td>+1.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>XXD</td>
+                                    <td>ADITYA BIRLA</td>
+                                    <td>$1.02</td>
+                                    <td>-1.01</td>
+                                    <td>+2.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAC</td>
+                                    <td>AUSTRALIAN COMPANY </td>
+                                    <td>$1.38</td>
+                                    <td>+2.01</td>
+                                    <td>-0.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAD</td>
+                                    <td>AUSENCO</td>
+                                    <td>$2.38</td>
+                                    <td>-0.01</td>
+                                    <td>-1.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAX</td>
+                                    <td>ADELAIDE</td>
+                                    <td>$3.22</td>
+                                    <td>+0.01</td>
+                                    <td>+1.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>XXD</td>
+                                    <td>ADITYA BIRLA</td>
+                                    <td>$1.02</td>
+                                    <td>-1.01</td>
+                                    <td>+2.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAC</td>
+                                    <td>AUSTRALIAN COMPANY </td>
+                                    <td>$1.38</td>
+                                    <td>+2.01</td>
+                                    <td>-0.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAD</td>
+                                    <td>AUSENCO</td>
+                                    <td>$2.38</td>
+                                    <td>-0.01</td>
+                                    <td>-1.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAX</td>
+                                    <td>ADELAIDE</td>
+                                    <td>$3.22</td>
+                                    <td>+0.01</td>
+                                    <td>+1.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>XXD</td>
+                                    <td>ADITYA BIRLA</td>
+                                    <td>$1.02</td>
+                                    <td>-1.01</td>
+                                    <td>+2.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAC</td>
+                                    <td>AUSTRALIAN COMPANY </td>
+                                    <td>$1.38</td>
+                                    <td>+2.01</td>
+                                    <td>-0.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAD</td>
+                                    <td>AUSENCO</td>
+                                    <td>$2.38</td>
+                                    <td>-0.01</td>
+                                    <td>-1.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAX</td>
+                                    <td>ADELAIDE</td>
+                                    <td>$3.22</td>
+                                    <td>+0.01</td>
+                                    <td>+1.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>XXD</td>
+                                    <td>ADITYA BIRLA</td>
+                                    <td>$1.02</td>
+                                    <td>-1.01</td>
+                                    <td>+2.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAC</td>
+                                    <td>AUSTRALIAN COMPANY </td>
+                                    <td>$1.38</td>
+                                    <td>+2.01</td>
+                                    <td>-0.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAD</td>
+                                    <td>AUSENCO</td>
+                                    <td>$2.38</td>
+                                    <td>-0.01</td>
+                                    <td>-1.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>AAX</td>
+                                    <td>ADELAIDE</td>
+                                    <td>$3.22</td>
+                                    <td>+0.01</td>
+                                    <td>+1.36%</td>
+                                </tr>
+                                <tr>
+                                    <td>XXD</td>
+                                    <td>ADITYA BIRLA</td>
+                                    <td>$1.02</td>
+                                    <td>-1.01</td>
+                                    <td>+2.36%</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <script>
+
+                        // '.tbl-content' consumed little space for vertical scrollbar, scrollbar width depend on browser/os/platfrom. Here calculate the scollbar width .
+                        $(window).on("load resize ", function() {
+                            var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
+                            $('.tbl-header').css({'padding-right':scrollWidth});
+                        }).resize();
+                    </script>
+
+
+
+
+
+
+                  <!--  </html>-->
+                <!---->
+
+                </div>
+				
+				 
+              </div> <!-- end of home -->
+
+            </div>
+          </div><!-- end of scroll -->
+		</div>
+    </div> <!-- end of content -->
+</div>
+
+<div id="footer">
+    
+	<div id="social_box">
+		<a href="#"><img src="images/facebook.png" alt="facebook" /></a>
+        <a href="#"><img src="images/flickr.png" alt="flickr" /></a>
+        <a href="#"><img src="images/myspace.png" alt="myspace" /></a>
+        <a href="#"><img src="images/twitter.png" alt="twitter" /></a>
+        <a href="#"><img src="images/youtube.png" alt="youtube" /></a>
+    </div>
+    
+    <div id="footer_left">
+		
+		Copyright © 2048 <a href="#">Company Name</a><br />
+		Designed by <a href="http://www.tooplate.com">Free HTML Templates</a><br />
+       
+    </div>
+	
+    <div class="cleaner"></div>
+</div>
+<!--   Free Website Template by t o o p l a t e . c o m   -->
+</body>
+</html>

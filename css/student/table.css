@@ -1,0 +1,184 @@
+.sortable {width:690px; border-left:1px solid #c6d5e1; border-top:1px solid #c6d5e1; border-bottom:none; margin:0 -10px 0 -17px;float:left;}
+.sortable th {background:url(../../images/header-bg.gif); text-align:left; color:#cfdce7; border:1px solid #fff; border-right:none}
+.sortable th h3 {font-size:15px; padding:6px 8px 8px;text-align: center; color:white;}
+.sortable td {padding:4px 5px 5px; border-bottom:1px solid #c6d5e1; border-right:1px solid #c6d5e1}
+.sortable .head h3 {background:url(../../images/sort.gif) 7px center no-repeat; cursor:pointer; padding-left:18px}
+.sortable .desc, .sortable .asc {background:url(../../images/header-selected-bg.gif)}
+.sortable .desc h3 {background:url(../../images/desc.gif) 7px center no-repeat; cursor:pointer; padding-left:18px}
+.sortable .asc h3 {background:url(../../images/asc.gif) 7px  center no-repeat; cursor:pointer; padding-left:18px}
+.sortable .head:hover, .sortable .desc:hover, .sortable .asc:hover {color:#fff}
+.sortable .evenrow td {background:#fff}
+.sortable .oddrow td {background:#ecf2f6}
+.sortable td.evenselected {background:#ecf2f6}
+.sortable td.oddselected {background:#dce6ee}
+
+#controls {width:690px; margin:0 auto; height:20px}
+#perpage {float:left; width:150px}
+#perpage select {float:left; font-size:10px}
+#perpage span {float:left; margin:-5px 0 0 5px}
+#navigation {float:left; width:300px; text-align:center}
+#navigation img {cursor:pointer}
+#text {float:left; width:150px; text-align:right; margin-top:-5px}
+
+
+
+.table_notice{
+}
+.notice_date{
+    width: 100px;
+    background: url(../../images/date_circle.png) center no-repeat;
+    color:white;
+
+}
+
+.notice_date_head{
+    width: 100px;
+    color:white;
+
+}
+
+.notice_news{
+    width: 490px;
+
+}
+
+.notice_row{
+    border-bottom: 2px solid #ff987d;
+    height: 120px;
+    padding-bottom:0px;
+    overflow:auto;
+    margin-top:-10px;
+}
+
+
+.material_course_code{
+    width: 100px;
+    color:#fff;
+
+}
+.material_course_name{
+    width: 180px;
+    color:#fff;
+
+}
+.material_name{
+    width: 280px;
+    color:#fff;
+
+}
+
+.material_row{
+    border-bottom: 2px solid #edee68;
+    height: 65px;
+    margin-top:-12px;
+    text-alignment:center;
+    color:#000;
+}
+
+
+.table_view{
+    margin:0 0 10px 20px;
+    table-layout: fixed;
+    text-alignment:center;
+}
+.table_view_content{
+    margin:0 0 10px 20px;
+    height:580px;
+    overflow-x:auto;
+    overflow-y:auto;
+    text-alignment:center;
+
+}
+
+.table_view th{
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+.table_view_content td{
+    padding: 10px 15px;
+    font-weight: 300;
+    font-size: 15px;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+    border-radius:5px;
+}
+
+/* demo styles */
+
+
+section{
+    margin: 10px 10px 10px -10px;
+}
+
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.table_view_schedule{
+    text-align:center;
+    background-color:transparent;
+
+}
+
+
+.table_blue_content tr td{
+    padding:8px;
+    border-collapse: collapse;
+    border: 2px solid #86b6e5;
+    border-radius:10px;
+
+}
+
+
+
+.table_course {border-collapse: collapse;  width: 90%; margin-left: 40px;text-align:center;}
+
+.table_course th{ padding: 10px; font-size: 15px; }
+
+.table_course td {
+    padding: 12px;
+    font-size: 15px;
+    transition: .4s ease-in;
+}
+
+.table_course tr {
+    background: #4dd3ef;
+    transition: .4s ease-in;
+}
+
+.table_course tr:first-child {
+    background: #68a1ad;
+    color:#fff;
+
+}
+
+.table_course tr:nth-child(even) {
+    background: #a7e9f7;
+}
+
+.table_course td:empty {
+    background: transparent;
+}
+
+.table_course tr:hover:not(#table_course_firstrow), tr:hover td:empty {
+    background:#0d7b92 ;
+    pointer-events: visible;
+    color:#fff;
+}
+.table_course tr:hover:not(#table_course_firstrow) {
+    transform: scale(1.1);
+    font-weight: 300;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);
+}

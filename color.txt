@@ -1,0 +1,23 @@
+vaiolet:
+#ecbfff
+#6b0098
+#34004a
+
+blue:
+#ecbfff
+5FD7F1
+38A7DE
+
+all:
+#9400d3
+#0000ff change to #3333FF
+#29CAEC
+#80ff00
+ECD329
+#ff1a00 
+#ff7000
+
+
+
+
+#ecbfff
